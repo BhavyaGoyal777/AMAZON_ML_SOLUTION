@@ -378,12 +378,11 @@ final_prices = np.expm1(log_price_final)
 
 ### What Worked ✅
 
-1. **Log transformation** → 15-20% SMAPE improvement
+1. **Log transformation** → 10% SMAPE improvement
 2. **Smooth L1 loss** → 5-8% better than SMAPE loss
-3. **FFN-only fine-tuning** → 10x faster, no overfitting
-4. **Image embeddings** → 2-3% improvement over text-only
-5. **3-layer regression head** → Better than 1-layer (underfitting) or 5-layer (overfitting)
-6. **Simple ensemble averaging** → Consistent gains over single models
+3. **FFN-only fine-tuning** → faster, no overfitting
+4. **3-layer regression head** → Better than 1-layer (underfitting) or 5-layer (overfitting)
+5. **Simple ensemble averaging** → Consistent gains over single models
 
 ### What Didn't Work ❌
 
