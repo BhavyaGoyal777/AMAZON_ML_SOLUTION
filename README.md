@@ -5,7 +5,7 @@
 
 ## Team
 
-Bhavya Goyal, Shivam Baheti, Shubham Choulkar
+Bhavya Goyal, Shivam Baheti, Shubham Choulkar,Kanishka Utagikar
 
 ## Overview
 
